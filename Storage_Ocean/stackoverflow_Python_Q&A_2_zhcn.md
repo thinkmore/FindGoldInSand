@@ -1,5 +1,11 @@
-[stackoverflow-py-top-qa](https://github.com/wklken/stackoverflow-py-top-qa)
-[PyZh](https://github.com/MrKiven/PyZh)
+## 来源
+
+Fork from:
+
+- [stackoverflow-py-top-qa](https://github.com/wklken/stackoverflow-py-top-qa)
+
+- [PyZh](https://github.com/MrKiven/PyZh)
+
 =======================
 
 ### 目录
@@ -31,14 +37,18 @@
 
 * [pip/easy_install](https://github.com/wklken/stackoverflow-py-top-qa/blob/master/contents/qa-pip-easy_install.md)
 
+* [setup.py vs requirements.txt](https://pyzh.readthedocs.io/en/latest/python-setup-dot-py-vs-requirements-dot-txt.html)
+
 * [其他](https://github.com/wklken/stackoverflow-py-top-qa/blob/master/contents/qa-others.md)
 
-[为什么Python没有unzip函数](https://github.com/MrKiven/PyZh/blob/master/docs/python-questions-on-stackoverflow.rst#pythonunzip)
+======
 
-[Python中的新式类和旧式类](https://pyzh.readthedocs.io/en/latest/python-questions-on-stackoverflow.html#python)
+* [为什么Python没有unzip函数](https://github.com/MrKiven/PyZh/blob/master/docs/python-questions-on-stackoverflow.rst#pythonunzip)
 
-[Python元类](https://github.com/MrKiven/PyZh/blob/master/docs/python-questions-on-stackoverflow.rst#metaclass)
+* [Python中的新式类和旧式类](https://pyzh.readthedocs.io/en/latest/python-questions-on-stackoverflow.html#python)
 
-[Python关键字yield的解释¶](https://pyzh.readthedocs.io/en/latest/the-python-yield-keyword-explained.html#id8)
+* [Python元类](https://github.com/MrKiven/PyZh/blob/master/docs/python-questions-on-stackoverflow.rst#metaclass)
 
-[(译)Python魔法方法指南]( https://pyzh.readthedocs.io/en/latest/python-magic-methods-guide.html)
+* [Python关键字yield的解释¶](https://pyzh.readthedocs.io/en/latest/the-python-yield-keyword-explained.html#id8)
+
+* [(译)Python魔法方法指南]( https://pyzh.readthedocs.io/en/latest/python-magic-methods-guide.html)
