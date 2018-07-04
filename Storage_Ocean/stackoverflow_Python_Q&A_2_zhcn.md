@@ -1,10 +1,9 @@
 ## 来源
 
 Fork from:
+##  [stackoverflow-py-top-qa](https://github.com/wklken/stackoverflow-py-top-qa)
 
-- [stackoverflow-py-top-qa](https://github.com/wklken/stackoverflow-py-top-qa)
-
-- [PyZh](https://github.com/MrKiven/PyZh)
+## [PyZh](https://github.com/MrKiven/PyZh)
 
 =======================
 

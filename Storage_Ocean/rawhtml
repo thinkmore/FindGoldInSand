@@ -1,0 +1,157 @@
+## https://github.com/taizilongxu/interview_python#python%E8%AF%AD%E8%A8%80%E7%89%B9%E6%80%A7
+
+<li><a href="#python%E8%AF%AD%E8%A8%80%E7%89%B9%E6%80%A7">Python语言特性</a>
+<ul>
+<li><a href="#1-python%E7%9A%84%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0%E4%BC%A0%E9%80%92">1 Python的函数参数传递</a></li>
+<li><a href="#2-python%E4%B8%AD%E7%9A%84%E5%85%83%E7%B1%BBmetaclass">2 Python中的元类(metaclass)</a></li>
+<li><a href="#3-staticmethod%E5%92%8Cclassmethod">3 @staticmethod和@classmethod</a></li>
+<li><a href="#4-%E7%B1%BB%E5%8F%98%E9%87%8F%E5%92%8C%E5%AE%9E%E4%BE%8B%E5%8F%98%E9%87%8F">4 类变量和实例变量</a></li>
+<li><a href="#5-python%E8%87%AA%E7%9C%81">5 Python自省</a></li>
+<li><a href="#6-%E5%AD%97%E5%85%B8%E6%8E%A8%E5%AF%BC%E5%BC%8F">6 字典推导式</a></li>
+<li><a href="#7-python%E4%B8%AD%E5%8D%95%E4%B8%8B%E5%88%92%E7%BA%BF%E5%92%8C%E5%8F%8C%E4%B8%8B%E5%88%92%E7%BA%BF">7 Python中单下划线和双下划线</a></li>
+<li><a href="#8-%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%92%8Cformat">8 字符串格式化:\x和.format</a></li>
+<li><a href="#9-%E8%BF%AD%E4%BB%A3%E5%99%A8%E5%92%8C%E7%94%9F%E6%88%90%E5%99%A8">9 迭代器和生成器</a></li>
+<li><a href="#10-args-and-kwargs">10 *args and <code>**kwargs</code></a></li>
+<li><a href="#11-%E9%9D%A2%E5%90%91%E5%88%87%E9%9D%A2%E7%BC%96%E7%A8%8Baop%E5%92%8C%E8%A3%85%E9%A5%B0%E5%99%A8">11 面向切面编程AOP和装饰器</a></li>
+<li><a href="#12-%E9%B8%AD%E5%AD%90%E7%B1%BB%E5%9E%8B">12 鸭子类型</a></li>
+<li><a href="#13-python%E4%B8%AD%E9%87%8D%E8%BD%BD">13 Python中重载</a></li>
+<li><a href="#14-%E6%96%B0%E5%BC%8F%E7%B1%BB%E5%92%8C%E6%97%A7%E5%BC%8F%E7%B1%BB">14 新式类和旧式类</a></li>
+<li><a href="#15-__new__%E5%92%8C__init__%E7%9A%84%E5%8C%BA%E5%88%AB">15 __new__和<code><strong>init</strong></code>的区别</a></li>
+<li><a href="#16-%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F">16 单例模式</a>
+<ul>
+<li><a href="#1-%E4%BD%BF%E7%94%A8__new__%E6%96%B9%E6%B3%95">1 使用__new__方法</a></li>
+<li><a href="#2-%E5%85%B1%E4%BA%AB%E5%B1%9E%E6%80%A7">2 共享属性</a></li>
+<li><a href="#3-%E8%A3%85%E9%A5%B0%E5%99%A8%E7%89%88%E6%9C%AC">3 装饰器版本</a></li>
+<li><a href="#4-import%E6%96%B9%E6%B3%95">4 import方法</a></li>
+</ul>
+</li>
+<li><a href="#17-python%E4%B8%AD%E7%9A%84%E4%BD%9C%E7%94%A8%E5%9F%9F">17 Python中的作用域</a></li>
+<li><a href="#18-gil%E7%BA%BF%E7%A8%8B%E5%85%A8%E5%B1%80%E9%94%81">18 GIL线程全局锁</a></li>
+<li><a href="#19-%E5%8D%8F%E7%A8%8B">19 协程</a></li>
+<li><a href="#20-%E9%97%AD%E5%8C%85">20 闭包</a></li>
+<li><a href="#21-lambda%E5%87%BD%E6%95%B0">21 lambda函数</a></li>
+<li><a href="#22-python%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B">22 Python函数式编程</a></li>
+<li><a href="#23-python%E9%87%8C%E7%9A%84%E6%8B%B7%E8%B4%9D">23 Python里的拷贝</a></li>
+<li><a href="#24-python%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E6%9C%BA%E5%88%B6">24 Python垃圾回收机制</a>
+<ul>
+<li><a href="#1-%E5%BC%95%E7%94%A8%E8%AE%A1%E6%95%B0">1 引用计数</a></li>
+<li><a href="#2-%E6%A0%87%E8%AE%B0-%E6%B8%85%E9%99%A4%E6%9C%BA%E5%88%B6">2 标记-清除机制</a></li>
+<li><a href="#3-%E5%88%86%E4%BB%A3%E6%8A%80%E6%9C%AF">3 分代技术</a></li>
+</ul>
+</li>
+<li><a href="#25-python%E7%9A%84list">25 Python的List</a></li>
+<li><a href="#26-python%E7%9A%84is">26 Python的is</a></li>
+<li><a href="#27-readreadline%E5%92%8Creadlines">27 read,readline和readlines</a></li>
+<li><a href="#28-python2%E5%92%8C3%E7%9A%84%E5%8C%BA%E5%88%AB">28 Python2和3的区别</a></li>
+<li><a href="#29-super-init">29 super init</a></li>
+<li><a href="#30-range-and-xrange">30 range and xrange</a></li>
+</ul>
+</li>
+<li><a href="#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F">操作系统</a>
+<ul>
+<li><a href="#1-selectpoll%E5%92%8Cepoll">1 select,poll和epoll</a></li>
+<li><a href="#2-%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95">2 调度算法</a></li>
+<li><a href="#3-%E6%AD%BB%E9%94%81">3 死锁</a></li>
+<li><a href="#4-%E7%A8%8B%E5%BA%8F%E7%BC%96%E8%AF%91%E4%B8%8E%E9%93%BE%E6%8E%A5">4 程序编译与链接</a>
+<ul>
+<li><a href="#1-%E9%A2%84%E5%A4%84%E7%90%86">1 预处理</a></li>
+<li><a href="#2-%E7%BC%96%E8%AF%91">2 编译</a></li>
+<li><a href="#3-%E6%B1%87%E7%BC%96">3 汇编</a></li>
+<li><a href="#4-%E9%93%BE%E6%8E%A5">4 链接</a></li>
+</ul>
+</li>
+<li><a href="#5-%E9%9D%99%E6%80%81%E9%93%BE%E6%8E%A5%E5%92%8C%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5">5 静态链接和动态链接</a></li>
+<li><a href="#6-%E8%99%9A%E6%8B%9F%E5%86%85%E5%AD%98%E6%8A%80%E6%9C%AF">6 虚拟内存技术</a></li>
+<li><a href="#7-%E5%88%86%E9%A1%B5%E5%92%8C%E5%88%86%E6%AE%B5">7 分页和分段</a>
+<ul>
+<li><a href="#%E5%88%86%E9%A1%B5%E4%B8%8E%E5%88%86%E6%AE%B5%E7%9A%84%E4%B8%BB%E8%A6%81%E5%8C%BA%E5%88%AB">分页与分段的主要区别</a></li>
+</ul>
+</li>
+<li><a href="#8-%E9%A1%B5%E9%9D%A2%E7%BD%AE%E6%8D%A2%E7%AE%97%E6%B3%95">8 页面置换算法</a></li>
+<li><a href="#9-%E8%BE%B9%E6%B2%BF%E8%A7%A6%E5%8F%91%E5%92%8C%E6%B0%B4%E5%B9%B3%E8%A7%A6%E5%8F%91">9 边沿触发和水平触发</a></li>
+</ul>
+</li>
+<li><a href="#%E6%95%B0%E6%8D%AE%E5%BA%93">数据库</a>
+<ul>
+<li><a href="#1-%E4%BA%8B%E5%8A%A1">1 事务</a></li>
+<li><a href="#2-%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B4%A2%E5%BC%95">2 数据库索引</a></li>
+<li><a href="#3-redis%E5%8E%9F%E7%90%86">3 Redis原理</a>
+<ul>
+<li><a href="#redis%E6%98%AF%E4%BB%80%E4%B9%88">Redis是什么？</a></li>
+<li><a href="#redis%E6%95%B0%E6%8D%AE%E5%BA%93">Redis数据库</a></li>
+<li><a href="#redis%E7%BC%BA%E7%82%B9">Redis缺点</a></li>
+</ul>
+</li>
+<li><a href="#4-%E4%B9%90%E8%A7%82%E9%94%81%E5%92%8C%E6%82%B2%E8%A7%82%E9%94%81">4 乐观锁和悲观锁</a></li>
+<li><a href="#5-mvcc">5 MVCC</a>
+<ul>
+<li><a href="#mysql%E7%9A%84innodb%E5%BC%95%E6%93%8E%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0mvcc%E7%9A%84"></a><a href="http://lib.csdn.net/base/mysql" rel="nofollow">MySQL</a>的innodb引擎是如何实现MVCC的</li>
+</ul>
+</li>
+<li><a href="#6-myisam%E5%92%8Cinnodb">6 MyISAM和InnoDB</a></li>
+</ul>
+</li>
+<li><a href="#%E7%BD%91%E7%BB%9C">网络</a>
+<ul>
+<li><a href="#1-%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B">1 三次握手</a></li>
+<li><a href="#2-%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B">2 四次挥手</a></li>
+<li><a href="#3-arp%E5%8D%8F%E8%AE%AE">3 ARP协议</a></li>
+<li><a href="#4-urllib%E5%92%8Curllib2%E7%9A%84%E5%8C%BA%E5%88%AB">4 urllib和urllib2的区别</a></li>
+<li><a href="#5-post%E5%92%8Cget">5 Post和Get</a></li>
+<li><a href="#6-cookie%E5%92%8Csession">6 Cookie和Session</a></li>
+<li><a href="#7-apache%E5%92%8Cnginx%E7%9A%84%E5%8C%BA%E5%88%AB">7 apache和nginx的区别</a></li>
+<li><a href="#8-%E7%BD%91%E7%AB%99%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81%E4%BF%9D%E5%AD%98">8 网站用户密码保存</a></li>
+<li><a href="#9-http%E5%92%8Chttps">9 HTTP和HTTPS</a></li>
+<li><a href="#10-xsrf%E5%92%8Cxss">10 XSRF和XSS</a></li>
+<li><a href="#11-%E5%B9%82%E7%AD%89-idempotence">11 幂等 Idempotence</a></li>
+<li><a href="#12-restful%E6%9E%B6%E6%9E%84soaprpc">12 RESTful架构(SOAP,RPC)</a></li>
+<li><a href="#13-soap">13 SOAP</a></li>
+<li><a href="#14-rpc">14 RPC</a></li>
+<li><a href="#15-cgi%E5%92%8Cwsgi">15 CGI和WSGI</a></li>
+<li><a href="#16-%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%94%BB%E5%87%BB">16 中间人攻击</a></li>
+<li><a href="#17-c10k%E9%97%AE%E9%A2%98">17 c10k问题</a></li>
+<li><a href="#18-socket">18 socket</a></li>
+<li><a href="#19-%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BC%93%E5%AD%98">19 浏览器缓存</a></li>
+<li><a href="#20-http10%E5%92%8Chttp11">20 HTTP1.0和HTTP1.1</a></li>
+<li><a href="#21-ajax">21 Ajax</a></li>
+</ul>
+</li>
+<li><a href="#nix">*NIX</a>
+<ul>
+<li><a href="#unix%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8Fipc">unix进程间通信方式(IPC)</a></li>
+</ul>
+</li>
+<li><a href="#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84">数据结构</a>
+<ul>
+<li><a href="#1-%E7%BA%A2%E9%BB%91%E6%A0%91">1 红黑树</a></li>
+</ul>
+</li>
+<li><a href="#%E7%BC%96%E7%A8%8B%E9%A2%98">编程题</a>
+<ul>
+<li><a href="#1-%E5%8F%B0%E9%98%B6%E9%97%AE%E9%A2%98%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91">1 台阶问题/斐波那契</a></li>
+<li><a href="#2-%E5%8F%98%E6%80%81%E5%8F%B0%E9%98%B6%E9%97%AE%E9%A2%98">2 变态台阶问题</a></li>
+<li><a href="#3-%E7%9F%A9%E5%BD%A2%E8%A6%86%E7%9B%96">3 矩形覆盖</a></li>
+<li><a href="#4-%E6%9D%A8%E6%B0%8F%E7%9F%A9%E9%98%B5%E6%9F%A5%E6%89%BE">4 杨氏矩阵查找</a></li>
+<li><a href="#5-%E5%8E%BB%E9%99%A4%E5%88%97%E8%A1%A8%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0">5 去除列表中的重复元素</a></li>
+<li><a href="#6-%E9%93%BE%E8%A1%A8%E6%88%90%E5%AF%B9%E8%B0%83%E6%8D%A2">6 链表成对调换</a></li>
+<li><a href="#7-%E5%88%9B%E5%BB%BA%E5%AD%97%E5%85%B8%E7%9A%84%E6%96%B9%E6%B3%95">7 创建字典的方法</a>
+<ul>
+<li><a href="#1-%E7%9B%B4%E6%8E%A5%E5%88%9B%E5%BB%BA">1 直接创建</a></li>
+<li><a href="#2-%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95">2 工厂方法</a></li>
+<li><a href="#3-fromkeys%E6%96%B9%E6%B3%95">3 fromkeys()方法</a></li>
+</ul>
+</li>
+<li><a href="#8-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8">8 合并两个有序列表</a></li>
+<li><a href="#9-%E4%BA%A4%E5%8F%89%E9%93%BE%E8%A1%A8%E6%B1%82%E4%BA%A4%E7%82%B9">9 交叉链表求交点</a></li>
+<li><a href="#10-%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE">10 二分查找</a></li>
+<li><a href="#11-%E5%BF%AB%E6%8E%92">11 快排</a></li>
+<li><a href="#12-%E6%89%BE%E9%9B%B6%E9%97%AE%E9%A2%98">12 找零问题</a></li>
+<li><a href="#13-%E5%B9%BF%E5%BA%A6%E9%81%8D%E5%8E%86%E5%92%8C%E6%B7%B1%E5%BA%A6%E9%81%8D%E5%8E%86%E4%BA%8C%E5%8F%89%E6%A0%91">13 广度遍历和深度遍历二叉树</a></li>
+<li><a href="#17-%E5%89%8D%E4%B8%AD%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86">17 前中后序遍历</a></li>
+<li><a href="#18-%E6%B1%82%E6%9C%80%E5%A4%A7%E6%A0%91%E6%B7%B1">18 求最大树深</a></li>
+<li><a href="#19-%E6%B1%82%E4%B8%A4%E6%A3%B5%E6%A0%91%E6%98%AF%E5%90%A6%E7%9B%B8%E5%90%8C">19 求两棵树是否相同</a></li>
+<li><a href="#20-%E5%89%8D%E5%BA%8F%E4%B8%AD%E5%BA%8F%E6%B1%82%E5%90%8E%E5%BA%8F">20 前序中序求后序</a></li>
+<li><a href="#21-%E5%8D%95%E9%93%BE%E8%A1%A8%E9%80%86%E7%BD%AE">21 单链表逆置</a></li>
+<li><a href="#22-%E4%B8%A4%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%98%AF%E5%90%A6%E6%98%AF%E5%8F%98%E4%BD%8D%E8%AF%8D">22 两个字符串是否是变位词</a></li>
+<li><a href="#23-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E9%97%AE%E9%A2%98">23 动态规划问题</a></li>
+</ul>

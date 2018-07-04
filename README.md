@@ -7,3 +7,5 @@
 - [Stackoverflow 精选 Python 相关问答翻译](https://github.com/imoyao/FindGoldinSand/blob/master/Storage_Ocean/stackoverflow_Python_Q%26A_2_zhcn.md)
 
 - [掘金计划——关于 Python 的外文翻译](https://github.com/imoyao/FindGoldinSand/blob/master/Storage_Ocean/gold_miner.md)
+
+- [搞定 Python 面试](https://github.com/imoyao/FindGoldinSand/blob/master/Storage_Ocean/gold_miner.md)
