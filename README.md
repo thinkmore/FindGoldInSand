@@ -8,4 +8,4 @@
 
 - [掘金计划——关于 Python 的外文翻译](https://github.com/imoyao/FindGoldinSand/blob/master/Storage_Ocean/gold_miner.md)
 
-- [搞定 Python 面试](https://github.com/imoyao/FindGoldinSand/blob/master/Storage_Ocean/gold_miner.md)
+- [搞定 Python 面试](https://github.com/imoyao/FindGoldinSand/blob/master/Storage_Ocean/interview_of_Python.md)
