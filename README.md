@@ -6,7 +6,7 @@
 
 目前仅以超链接形式记录，方便查询，不对具体内容进行复制。后期如果有机会，会考虑对内容进行梳理和添加。
 
-- [`Awesome Python Books`](https://github.com/Junnplus/awesome-python-books/blob/master/README-ZH_CN.md)
+- [`Awesome Python Books`](https://github.com/imoyao/awesome-python-books)
 
 - [写给 `Python` 入门新手的资源集锦](https://github.com/imoyao/FindGoldinSand/blob/master/Storage_Ocean/for_who_new_to_Python.md)
 
