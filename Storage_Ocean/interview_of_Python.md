@@ -122,7 +122,7 @@ _Fork from：_
 1. [红黑树](https://github.com/imoyao/interview_python#1-%E5%8F%B0%E9%98%B6%E9%97%AE%E9%A2%98%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91)
 
 ## [编程题](https://github.com/imoyao/interview_python#%E7%BC%96%E7%A8%8B%E9%A2%98)
-1. [台阶问题/斐波那契]
+1. 台阶问题/斐波那契
 2. [变态台阶问题](https://github.com/imoyao/interview_python#2-%E5%8F%98%E6%80%81%E5%8F%B0%E9%98%B6%E9%97%AE%E9%A2%98)
 3. [矩形覆盖](https://github.com/imoyao/interview_python#3-%E7%9F%A9%E5%BD%A2%E8%A6%86%E7%9B%96)
 4. 杨氏矩阵查找
