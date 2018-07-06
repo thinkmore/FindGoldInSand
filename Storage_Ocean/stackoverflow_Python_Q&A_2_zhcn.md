@@ -5,10 +5,9 @@ Fork from:
 
 ## [PyZh](https://github.com/MrKiven/PyZh)
 
-=======================
+---
 
-### 目录
-> 基础
+## 基础
 
 * [基本语法控制流相关](https://github.com/wklken/stackoverflow-py-top-qa/blob/master/contents/qa-control-flow.md)
 * [字符串相关](https://github.com/wklken/stackoverflow-py-top-qa/blob/master/contents/qa-string.md)
@@ -16,13 +15,13 @@ Fork from:
 * [数学相关](https://github.com/wklken/stackoverflow-py-top-qa/blob/master/contents/qa-math.md)
 
 
-> 基本数据结构
+## 基本数据结构
 
 * [列表](https://github.com/wklken/stackoverflow-py-top-qa/blob/master/contents/qa-list.md)
 * [元组](https://github.com/wklken/stackoverflow-py-top-qa/blob/master/contents/qa-tuple.md)
 * [字典](https://github.com/wklken/stackoverflow-py-top-qa/blob/master/contents/qa-dict.md)
 
-> 进阶
+## 进阶
 
 * [函数](https://github.com/wklken/stackoverflow-py-top-qa/blob/master/contents/qa-func.md)
 * [内置函数](https://github.com/wklken/stackoverflow-py-top-qa/blob/master/contents/qa-built-in.md)
@@ -32,7 +31,7 @@ Fork from:
 * [日期](https://github.com/wklken/stackoverflow-py-top-qa/blob/master/contents/qa-datetime.md)
 * [oop](https://github.com/wklken/stackoverflow-py-top-qa/blob/master/contents/qa-oop.md)
 
-> 其他
+## 其他
 
 * [pip/easy_install](https://github.com/wklken/stackoverflow-py-top-qa/blob/master/contents/qa-pip-easy_install.md)
 
@@ -40,7 +39,7 @@ Fork from:
 
 * [其他](https://github.com/wklken/stackoverflow-py-top-qa/blob/master/contents/qa-others.md)
 
-======
+---
 
 * [为什么Python没有unzip函数](https://github.com/MrKiven/PyZh/blob/master/docs/python-questions-on-stackoverflow.rst#pythonunzip)
 

@@ -13,10 +13,10 @@ def load_page(url):
     req = urllib2.Request(url, headers=ua_header)
     html = urllib2.urlopen(req).read()
 
-    with open('rawhtml.html', 'w') as f:
+    with open('./static/rawhtml.html', 'w') as f:
         f.write(html)
     """
-    with open('./rawhtml.html') as f:
+    with open('./static/rawhtml.html') as f:
         html = f.read()
     """
 
@@ -105,7 +105,7 @@ def main(url):
     h = fix2strlist(h_obj)
     ul = fix2strlist(ul_obj)
     li = fix2strlist(li_obj)
-    with open('mymd.md', 'w') as f:
+    with open('./static/mymd.md', 'w') as f:
         f.write("\n####### this is h ########\n")
         f.writelines(h)
         f.write("\n######## this is ul #######\n")
