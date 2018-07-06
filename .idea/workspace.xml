@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af9e3204-2c90-43e0-a1c4-0ef4391ba582" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Storage_Ocean/for_who_new_to_Python.md" beforeDir="false" afterPath="$PROJECT_DIR$/Storage_Ocean/for_who_new_to_Python.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Storage_Ocean/interview_of_Python.md" beforeDir="false" afterPath="$PROJECT_DIR$/Storage_Ocean/interview_of_Python.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Storage_Ocean/mymd.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Storage_Ocean/mymd.md" beforeDir="false" afterPath="$PROJECT_DIR$/Storage_Ocean/static/mymd.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Storage_Ocean/rawhtml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Storage_Ocean/rawhtml.html" beforeDir="false" afterPath="$PROJECT_DIR$/Storage_Ocean/static/rawhtml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Storage_Ocean/sql.md" beforeDir="false" afterPath="$PROJECT_DIR$/Storage_Ocean/sql.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Storage_Ocean/stackoverflow_Python_Q&amp;A_2_zhcn.md" beforeDir="false" afterPath="$PROJECT_DIR$/Storage_Ocean/stackoverflow_Python_Q&amp;A_2_zhcn.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Storage_Ocean/superlink.py" beforeDir="false" afterPath="$PROJECT_DIR$/Storage_Ocean/superlink.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,12 +52,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mymd.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Storage_Ocean/static/mymd.md">
+      <file leaf-file-name="interview_of_Python.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Storage_Ocean/interview_of_Python.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="176">
-                <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="352">
+                <caret line="25" column="98" selection-start-line="25" selection-start-column="98" selection-end-line="25" selection-end-column="98" />
               </first_editor>
               <second_editor />
             </state>
@@ -100,8 +91,8 @@
       <find>XSRF和XSS</find>
       <find>SOAP</find>
       <find>RPC</find>
-      <find>markdown-body entry-content_obj</find>
-      <find>markdown-body entry-content</find>
+      <find />
+      <find />
       <find>urllib和urllib2的区别</find>
       <find>分页与分段的主要区别</find>
       <find>https://github.com/taizilongxu/interview_python#mysql%E7%9A%84innodb%E5%BC%95%E6%93%8E%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0mvcc%E7%9A%84</find>
@@ -137,8 +128,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Storage_Ocean/sql.md" />
         <option value="$PROJECT_DIR$/Storage_Ocean/for_who_new_to_Python.md" />
-        <option value="$PROJECT_DIR$/Storage_Ocean/interview_of_Python.md" />
         <option value="$PROJECT_DIR$/Storage_Ocean/superlink.py" />
+        <option value="$PROJECT_DIR$/Storage_Ocean/interview_of_Python.md" />
       </list>
     </option>
   </component>
@@ -151,9 +142,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="161" />
-    <option name="y" value="241" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="819" />
+    <option name="y" value="109" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -175,12 +166,6 @@
               <item name="FindGoldinSand" type="462c0819:PsiDirectoryNode" />
               <item name="Storage_Ocean" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="FindGoldinSand" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FindGoldinSand" type="462c0819:PsiDirectoryNode" />
-              <item name="Storage_Ocean" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -195,6 +180,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\mygithub\FindGoldinSand\Storage_Ocean\static" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\mygithub\FindGoldinSand" />
       <recent name="D:\mygithub\FindGoldinSand\Storage_Ocean" />
@@ -252,19 +240,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="819" y="109" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" order="8" visible="true" weight="0.3295711" />
+      <window_info anchor="bottom" id="File Transfer" order="8" visible="true" weight="0.33295324" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32392776" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25260416" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07724426" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -445,16 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Storage_Ocean/sql.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="22">
-            <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Storage_Ocean/for_who_new_to_Python.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -475,16 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Storage_Ocean/interview_of_Python.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="44">
-            <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -500,6 +468,26 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="176">
             <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Storage_Ocean/sql.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Storage_Ocean/interview_of_Python.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="352">
+            <caret line="25" column="98" selection-start-line="25" selection-start-column="98" selection-end-line="25" selection-end-column="98" />
           </first_editor>
           <second_editor />
         </state>

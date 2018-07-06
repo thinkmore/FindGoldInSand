@@ -21,27 +21,23 @@ _Fork from：_
 
 12. [鸭子类型](https://github.com/imoyao/interview_python#12-%E9%B8%AD%E5%AD%90%E7%B1%BB%E5%9E%8B)
 13. [`Python`中重载](https://github.com/imoyao/interview_python#13-python%E4%B8%AD%E9%87%8D%E8%BD%BD)
-
 14. [新式类和旧式类](https://github.com/imoyao/interview_python#14-%E6%96%B0%E5%BC%8F%E7%B1%BB%E5%92%8C%E6%97%A7%E5%BC%8F%E7%B1%BB)
-
 15. [`__new__`和`__init__`的区别](https://github.com/imoyao/interview_python#15-__new__%E5%92%8C__init__%E7%9A%84%E5%8C%BA%E5%88%AB)
-16. [单例模式](https://github.com/imoyao/interview_python#17-python%E4%B8%AD%E7%9A%84%E4%BD%9C%E7%94%A8%E5%9F%9F)
+16. [单例模式](https://github.com/taizilongxu/interview_python#16-%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F)
 	- 1. [使用`__new__`方法](https://github.com/imoyao/interview_python#1-%E4%BD%BF%E7%94%A8__new__%E6%96%B9%E6%B3%95)
 	- 2. [共享属性](https://github.com/imoyao/interview_python#2-%E5%85%B1%E4%BA%AB%E5%B1%9E%E6%80%A7)
 	- 3. [装饰器版本](https://github.com/imoyao/interview_python#3-%E8%A3%85%E9%A5%B0%E5%99%A8%E7%89%88%E6%9C%AC)
 	- 4. [`import`方法](https://github.com/imoyao/interview_python#4-import%E6%96%B9%E6%B3%95)
 	
-17. [`Python`中的作用域](https://github.com/imoyao/interview_python#18-gil%E7%BA%BF%E7%A8%8B%E5%85%A8%E5%B1%80%E9%94%81)
-18. [`GIL`线程全局锁](https://github.com/imoyao/interview_python#19-%E5%8D%8F%E7%A8%8B)
+17. [`Python`中的作用域](https://github.com/taizilongxu/interview_python#17-python%E4%B8%AD%E7%9A%84%E4%BD%9C%E7%94%A8%E5%9F%9F)
+18. [`GIL`线程全局锁](https://github.com/taizilongxu/interview_python#18-gil%E7%BA%BF%E7%A8%8B%E5%85%A8%E5%B1%80%E9%94%81)
 
-19. [协程](https://github.com/imoyao/interview_python#20-%E9%97%AD%E5%8C%85)
-20. [闭包](https://github.com/imoyao/interview_python#21-lambda%E5%87%BD%E6%95%B0)
-21. [`lambda`函数](https://github.com/imoyao/interview_python#22-python%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B)
-
-22. [`Python`函数式编程](https://github.com/imoyao/interview_python#23-python%E9%87%8C%E7%9A%84%E6%8B%B7%E8%B4%9D)
-
-23. [`Python`里的拷贝](https://github.com/imoyao/interview_python#24-python%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E6%9C%BA%E5%88%B6)
-24. [`Python`垃圾回收机制](https://github.com/imoyao/interview_python#25-python%E7%9A%84list)
+19. [协程](https://github.com/taizilongxu/interview_python#19-%E5%8D%8F%E7%A8%8B)
+20. [闭包](https://github.com/taizilongxu/interview_python#20-%E9%97%AD%E5%8C%85)
+21. [`lambda`函数](https://github.com/taizilongxu/interview_python#21-lambda%E5%87%BD%E6%95%B0)
+22. [`Python`函数式编程](https://github.com/taizilongxu/interview_python#22-python%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B)
+23. [`Python`里的拷贝](https://github.com/taizilongxu/interview_python#23-python%E9%87%8C%E7%9A%84%E6%8B%B7%E8%B4%9D)
+24. [`Python`垃圾回收机制](https://github.com/taizilongxu/interview_python#24-python%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E6%9C%BA%E5%88%B6)
 
 	- 1. [引用计数](https://github.com/imoyao/interview_python#1-%E5%BC%95%E7%94%A8%E8%AE%A1%E6%95%B0)
 	
@@ -49,13 +45,13 @@ _Fork from：_
 	
 	- 3. [分代技术](https://github.com/imoyao/interview_python#3-%E5%88%86%E4%BB%A3%E6%8A%80%E6%9C%AF)
 	
-25. [`Python`的`List`](https://github.com/imoyao/interview_python#25-python%E7%9A%84list)           # TODO
+25. [`Python`的`List`](https://github.com/imoyao/interview_python#25-python%E7%9A%84list)
 26. [`Python`的`is`](https://github.com/imoyao/interview_python#26-python%E7%9A%84is)
 27. [`read`,`readline`和`readlines`](https://github.com/imoyao/interview_python#27-readreadline%E5%92%8Creadlines)
 28. [`Python2`和`Python3`的区别](https://github.com/imoyao/interview_python#28-python2%E5%92%8C3%E7%9A%84%E5%8C%BA%E5%88%AB)
 
-29. [super. init](https://github.com/imoyao/interview_python#29-super-init) # TODO
-30. [`range`和`xrange`](https://github.com/imoyao/interview_python#30-range-and-xrange)      # TODO
+29. [super. init](https://github.com/imoyao/interview_python#29-super-init)
+30. [`range`和`xrange`](https://github.com/imoyao/interview_python#30-range-and-xrange)
 
 ## [操作系统](https://github.com/imoyao/interview_python#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F)
 1. [`select`,`poll`和`epoll`](https://github.com/imoyao/interview_python#2-%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95)
@@ -124,6 +120,7 @@ _Fork from：_
 
 ## [数据结构](https://github.com/imoyao/interview_python#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)
 1. [红黑树](https://github.com/imoyao/interview_python#1-%E5%8F%B0%E9%98%B6%E9%97%AE%E9%A2%98%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91)
+
 ## [编程题](https://github.com/imoyao/interview_python#%E7%BC%96%E7%A8%8B%E9%A2%98)
 1. [台阶问题/斐波那契]
 2. [变态台阶问题](https://github.com/imoyao/interview_python#2-%E5%8F%98%E6%80%81%E5%8F%B0%E9%98%B6%E9%97%AE%E9%A2%98)
