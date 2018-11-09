@@ -1,6 +1,6 @@
 ## 来源
 
-_Fork from：_
+Fork from：
 
 # [Interview Python](https://github.com/taizilongxu/interview_python)
 
