@@ -7,7 +7,6 @@ Fork from：
 * [用 Python 实现每秒百万级请求](https://gold.xitu.io/entry/58b5b141570c350062f6cc01/?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([cdpath](https://github.com/cdpath)翻译)
 * [为 Async-Await 唱一曲赞歌](https://gold.xitu.io/entry/586eff068d6d810058794c94?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([xekri](https://github.com/xekri) 翻译)
 *  [GitHub 是如何阻止网络暴力的](https://gold.xitu.io/entry/58652f6661ff4b00583ba924?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([wild-flame](https://github.com/wild-flame) 翻译)
-*  [来写一个 Python 说明文档生成器吧](https://gold.xitu.io/entry/58574d0c8d6d810065b4a0b5?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([王子建](https://github.com/Romeo0906) 翻译)
 *  [用 Python 建立一个简单的对象模型](https://gold.xitu.io/entry/5852965661ff4b0063a72977?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([Zheaoli](https://github.com/Zheaoli) 翻译)
 *  [用 Python 和 Numpy 实现音频数字指纹特征识别](https://gold.xitu.io/entry/5850e6ebac502e0067ce86a8?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([Airmacho](https://github.com/Airmacho) 翻译)
 *  [代码复用的风险性](https://gold.xitu.io/entry/58491d3b8e450a006aae7b4f?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([Gocy015](https://github.com/Gocy015) 翻译)
