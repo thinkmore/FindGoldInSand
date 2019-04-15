@@ -16,8 +16,6 @@
 
 - [搞定 `Python` 面试](https://github.com/imoyao/FindGoldinSand/blob/master/Storage_Ocean/interview_of_Python.md)
 
-- [ PYMOTW3 ](https://pymotw.com/3/)
+- [ `Python 3` 标准库实例教程](https://pythoncaff.com/docs/pymotw)   |  [ PYMOTW3 ](https://pymotw.com/3/)
 
-- [ `Python 3` 标准库实例教程](https://pythoncaff.com/docs/pymotw)
-
-- [中文版：What the f*ck Python! 🐍](https://github.com/leisurelicht/wtfpython-cn)
+- [好艹蛋的 `Python` 啊! 🐍](https://github.com/leisurelicht/wtfpython-cn) | [What the f*ck Python!](https://github.com/satwikkansal/wtfpython)
