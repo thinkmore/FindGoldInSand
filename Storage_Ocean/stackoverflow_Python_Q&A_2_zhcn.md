@@ -79,7 +79,7 @@ Fork from:
 
 * ### [原问题链接](http://stackoverflow.com/questions/3437059/does-python-have-a-string-contains-substring-method)
     - [判断一个字符串是否含子串的方法](https://github.com/qiwsir/StackOverFlowCn/blob/master/106.md)
-    - [Python中有检查字符串包含的方法吗?](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/9.md)|
+    - [Python中有检查字符串包含的方法吗?](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/9.md)
     
 ---
 #### list
@@ -142,7 +142,7 @@ Fork from:
     - [获取列表最后一个元素](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/54.md)
 
 * ### [原问题链接](http://stackoverflow.com/questions/627435/how-do-i-remove-an-element-from-a-list-by-index-in-python)
-    - [如何删除 list 中指定 index 的元素?](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/83.md)|
+    - [如何删除 list 中指定 index 的元素?](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/83.md)
 
 * ### [原问题链接](http://stackoverflow.com/questions/1720421/how-to-concatenate-two-lists-in-python)
     - [合并两个列表](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/36.md)
@@ -166,7 +166,7 @@ Fork from:
 #### dict
 
 * ### [原问题链接](http://stackoverflow.com/questions/1602934/check-if-a-given-key-already-exists-in-a-dictionary)
-    - [检查一个键在字典中是否存在](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/20.md)|
+    - [检查一个键在字典中是否存在](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/20.md)
     - [查看某个给定的键是否已经在字典中](https://github.com/qiwsir/StackOverFlowCn/blob/master/111.md)
 
 * ### [原问题链接](http://stackoverflow.com/questions/1024847/add-new-keys-to-a-dictionary)
@@ -174,7 +174,7 @@ Fork from:
     
 * ### [原问题链接](http://stackoverflow.com/questions/38987/how-to-merge-two-dictionaries-in-a-single-expression)
     - [如何把两个Python字典用一个表达式合并](https://github.com/qiwsir/StackOverFlowCn/blob/master/102.md)
-    - [如何在一个表达式里合并两个字典?](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/7.md)|
+    - [如何在一个表达式里合并两个字典?](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/7.md)
     
 * ### [原问题链接](http://stackoverflow.com/questions/613183/how-do-i-sort-a-dictionary-by-value)
     - [用字典的值(key)对字典进行排序](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/10.md)
@@ -192,14 +192,14 @@ Fork from:
     - [Python中的 `__str__`和`__repr__`之间的区别](https://github.com/qiwsir/StackOverFlowCn/blob/master/307.md)
 
 * ### [原问题链接](http://stackoverflow.com/questions/36932/how-can-i-represent-an-enum-in-python)
-    - [在Python里如何用枚举类型?](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/78.md)|
+    - [在Python里如何用枚举类型?](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/78.md)
     - [怎样在Python中实现Enum（枚举）的功能](https://github.com/qiwsir/StackOverFlowCn/blob/master/107.md)
 
 * ### [原问题链接](http://stackoverflow.com/questions/2052390/manually-raising-throwing-an-exception-in-python)
     - [手动抛出异常](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/41.md)
     
 * ### [原问题链接](http://stackoverflow.com/questions/6470428/catch-multiple-exceptions-in-one-line-except-block)
-    - [在一行里获取多个异常](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/30.md)|
+    - [在一行里获取多个异常](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/30.md)
     - [将多行的异常变成一行](https://github.com/qiwsir/StackOverFlowCn/blob/master/108.md)
 
 * ### [原问题链接](http://stackoverflow.com/questions/509211/understanding-pythons-slice-notation)
@@ -212,7 +212,7 @@ Fork from:
 #### 时间
 
 * ### [原问题链接](http://stackoverflow.com/questions/415511/how-to-get-the-current-time-in-python)
-    - [在Python里获取当前时间](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/28.md)|
+    - [在Python里获取当前时间](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/28.md)
     - [如何在Python中获取当前时间](https://github.com/qiwsir/StackOverFlowCn/blob/master/110.md)
   
 ---  
@@ -223,7 +223,7 @@ Fork from:
     - [用Python如何判断一个文件是否存在?](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/4.md)
     
 * ### [原问题链接](http://stackoverflow.com/questions/273192/how-can-i-safely-create-a-nested-directory-in-python)
-    - [检查一个文件夹是否存在,如果不存在就创建它](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/8.md)|
+    - [检查一个文件夹是否存在,如果不存在就创建它](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/8.md)
     - [检查目录是否存在，如果有必要就创建一个目录](https://github.com/qiwsir/StackOverFlowCn/blob/master/402.md)
 
 * ### [原问题链接](http://stackoverflow.com/questions/123198/how-do-i-copy-a-file-in-python)
@@ -351,7 +351,7 @@ Fork from:
     - [在实例名字前单下划线和双下划线的含义](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/93.md)
     
 * ### [原问题链接](http://stackoverflow.com/questions/12179271/meaning-of-classmethod-and-staticmethod-for-beginner)
-    - [对于初学者如何理解 `@classmethod` 和 `@staticmethod`?](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/66.md)|
+    - [对于初学者如何理解 `@classmethod` 和 `@staticmethod`?](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/66.md)
 
 * ### [原问题链接](http://stackoverflow.com/questions/68645/are-static-class-variables-possible)
     - [Python 中类的静态变量](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/47.md)
@@ -361,7 +361,7 @@ Fork from:
     - [Python中的静态方法？](https://github.com/qiwsir/StackOverFlowCn/blob/master/309.md)
 
 * ### [原问题链接](http://stackoverflow.com/questions/576169/understanding-python-super-with-init-methods)
-    - [理解Python中`super()`和`__init__()`方法](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/29.md)|
+    - [理解Python中`super()`和`__init__()`方法](https://github.com/taizilongxu/stackoverflow_python/blob/master/part/29.md)
 
 - [如何使用 ' super '](https://github.com/qiwsir/StackOverFlowCn/blob/master/308.md)
 
