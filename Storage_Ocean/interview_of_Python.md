@@ -111,6 +111,7 @@ Fork from：
 19. [浏览器缓存](https://github.com/imoyao/interview_python#19-%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BC%93%E5%AD%98)
 20. [HTTP1.0和HTTP1.1](https://github.com/imoyao/interview_python#20-http10%E5%92%8Chttp11)
 21. [`Ajax`](https://github.com/imoyao/interview_python#21-ajax)
+22. [当在浏览器输入某网址时，计算机内部发生了什么？](https://github.com/skyline75489/what-happens-when-zh_CN)
 
 ## [*NIX](https://github.com/imoyao/interview_python#nix)
 
