@@ -19,3 +19,5 @@
 - [ `Python 3` 标准库实例教程](https://pythoncaff.com/docs/pymotw)   |  [ PYMOTW3 ](https://pymotw.com/3/)
 
 - [好艹蛋的 `Python` 啊! 🐍](https://github.com/leisurelicht/wtfpython-cn) | [What the f*ck Python!](https://github.com/satwikkansal/wtfpython)
+
+- [ 技术面试必备基础知识](./Storage_Ocean/tech_interview_note.md)
