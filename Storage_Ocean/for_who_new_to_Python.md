@@ -30,21 +30,23 @@ Fork from：
 --------------------------
 
 ### 零基础
-0. Python官方文档 [点击打开链接](http://docs.python.org/2/tutorial/index.html) 英语不好的，暂时就先别看了，以后一定肯定要加强英语学习哦)。
+0.  [Python官方文档](http://docs.python.org/2/tutorial/index.html)  
+(英语不好的，暂时就先别看了，以后一定肯定要加强英语学习哦)。
 
 1. 推荐[《How to think like a computer scientist》](http://www.greenteapress.com/thinkpython/thinkCSpy.pdf)，对应中文版本《Python学习笔记--皮大庆》，非常适合零基础入门。
 
-2. 推荐 [《Python编程实践》] (http://book.douban.com/subject/7059900/)
+2. 推荐 [《Python编程实践》](http://book.douban.com/subject/7059900/)
 
 3. 推荐 [《简明Python教程》](http://woodpecker.org.cn/abyteofpython_cn/chinese/)
-4. 
+
 4. 推荐[《笨办法学 Python （Learn Python The Hard Way）》](http://learn-python-the-hard-way-zh_cn-translation.readthedocs.org/en/1.0/)
+5. [Python最佳实践指南](https://pythonguidecn.readthedocs.io/zh/latest/)| [The Hitchhiker’s Guide to Python!](https://docs.python-guide.org/)
 
 ### 有其他编程语言基础
 
 0. 推荐[《Python基础教程》](http://book.douban.com/subject/4866934/)
 
-1. 推荐[Python入门教程-By廖雪峰](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000)
+1. [Python入门教程-By廖雪峰](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000)
 
 ### 进阶
 
@@ -60,8 +62,6 @@ Fork from：
 1.  **V2EX问答**： [文科生想学Python](http://www.v2ex.com/t/40397)
 
 2. [Python快速教程](http://www.cnblogs.com/vamei/archive/2012/09/13/2682778.html) 
-
-
 
 四、视频推荐
 ------------------------------------------
