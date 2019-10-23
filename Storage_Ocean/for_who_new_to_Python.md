@@ -24,7 +24,7 @@ Fork from：
 ----------------------------
 推荐阅读 [《提问的智慧》](http://wiki.woodpecker.org.cn/moin/AskForHelp) by-啄木鸟社区
 
-[《提问的智慧》](https://gist.github.com/zer4tul/95ffaa741c836dc6ab3b) 务必请读完！
+[《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md) 务必请读完！
 
 三、书籍推荐
 --------------------------
