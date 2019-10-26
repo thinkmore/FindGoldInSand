@@ -21,3 +21,5 @@
 - [好艹蛋的 `Python` 啊! 🐍](https://github.com/leisurelicht/wtfpython-cn) | [What the f*ck Python!](https://github.com/satwikkansal/wtfpython)
 
 - [ 技术面试必备基础知识](Storage_Ocean/tech_interview_note.md)
+
+- [ Python/Golang Web 入坑指南](https://github.com/PegasusWang/python-web-guide)
