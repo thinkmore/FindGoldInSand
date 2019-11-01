@@ -23,3 +23,5 @@
 - [ 技术面试必备基础知识](Storage_Ocean/tech_interview_note.md)
 
 - [ Python/Golang Web 入坑指南](https://github.com/PegasusWang/python-web-guide)
+
+- [ Python编程时光](https://github.com/BingmingWong/PythonCodingTime)
